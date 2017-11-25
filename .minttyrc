@@ -1,0 +1,10 @@
+BoldAsFont=-1
+ForegroundColour=0,128,0
+BackgroundColour=255,255,255
+CursorColour=0,128,0
+Transparency=medium
+CursorType=line
+FontHeight=10
+FontWeight=400
+FontIsBold=no
+OpaqueWhenFocused=yes
