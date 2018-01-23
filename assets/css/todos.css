@@ -105,10 +105,3 @@ footer {
     clear: left;
     text-align: center;
 }
-
-footer: span {
-	color: #8B0000;
-	font-family: Roboto;
-	text-decoration: underline;
-	font-weight: bold;
-}
