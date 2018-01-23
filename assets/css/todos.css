@@ -97,11 +97,11 @@ input:focus{
 }
 
 footer {
-	font-family: cursive;
 	position: relative;
     padding: 1em;
     color: #000000;
     background-color: transparent;
     clear: left;
     text-align: center;
+    font-weight: bold;
 }
