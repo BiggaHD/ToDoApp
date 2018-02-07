@@ -1,9 +1,6 @@
 body {
 	font-family: Roboto;
-	background: #3CA55C;  /* Old browsers */
-	background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #B5AC49, #3CA55C); /* Newer browsers */
-
+	background: white;
 }
 
 ul {
