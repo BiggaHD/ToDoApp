@@ -1,3 +1,20 @@
+.checked {
+	color: green;
+  }
+  .checked:before {
+	content: "\2713";
+	padding: 0.4rem;
+	font-size: 1rem;
+  }
+  .checked:hover {
+	text-decoration: none;
+  }
+  .checked:hover:after {
+	content: "(delete)";
+	color: tomato;
+	text-align: right;
+  }
+
 body {
 	font-family: Roboto;
 	background: #3CA55C;  /* Old browsers */
@@ -9,6 +26,7 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	background: #7dc06b;
 }
 
 h1 {
@@ -20,7 +38,7 @@ h1 {
 	padding: 10px 20px;
 	text-transform: uppercase;
 	font-style: italic;
-	font-size: 26px;
+	font-size: 1.5rem;
 	font-weight: normal;
 }
 
@@ -28,11 +46,20 @@ h1 {
 	float: right;
 }
 
+.fa-trash {
+	margin: 0.3rem;
+	padding: 0.3rem;
+	color: red;
+}
+
 li {
 	background: #fff;
-	height: 40px;
-	line-height: 40px;
-	color: #666;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	color: #52c234;
+	margin-left: 0.8rem;
+	padding-left: 0.6rem;
+	font-weight: 500;
 }
 
 li:nth-child(2n){
@@ -53,7 +80,6 @@ span {
 
 p {
 	text-align: center;
-	float: left;
 	color: #e74c3c;
 	opacity: 0.75;
 	display: inline-block;

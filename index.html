@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Discipline_App</title>	
+	<title>Discipline_App 1.2</title>	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
@@ -21,13 +21,11 @@
 		The Discipline App <i class="fa fa-plus"></i>
 	</h1>
 	
-	<input type="text" placeholder="Add a new task buddy ...">
+	<form  action="#">
+		<input type="text" name="item" id="item" placeholder="Add a new task buddy ..." />
+	</form>  
+	<ul id="list"></ul>
 
-	<ul>
-		<li><span><i class="fa fa-trash"></i></span> Start learning Python</li>
-		<li><span><i class="fa fa-trash"></i></span> Continue with the new Udemy course</li>
-		<li><span><i class="fa fa-trash"></i></span> Push all code to GitHub</li>
-	</ul>
 </div>
 <div>
 	
@@ -35,6 +33,6 @@
 	&copy; Made by Dzenis H. <i class="fa fa-arrows-h" aria-hidden="true"> </i> Inspired by YOU! 
 </footer>
 
-<script type="text/javascript" src="assets/js/todos.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
